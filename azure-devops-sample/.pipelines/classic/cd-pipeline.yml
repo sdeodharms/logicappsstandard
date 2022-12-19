@@ -10,7 +10,7 @@ resources:
   pipelines:
   - pipeline: cipipeline
     # TODO: Update with the name of your CI pipeline
-    source: ''
+    source: 'CI pipeline'
     trigger:
       branches:
       - main
@@ -36,7 +36,7 @@ stages:
             displayName: 'Deploy logic app workflows'
             inputs:
               # TODO: Fill in with the name of your Azure service connection
-              azureSubscription: ''
+              azureSubscription: 'azurems'
               appType: 'functionApp'
               appName: '$(logicAppName)'
               package: '$(Pipeline.Workspace)/cipipeline/$(logicAppCIArtifactName)/$(resources.pipeline.cipipeline.runID).zip'
