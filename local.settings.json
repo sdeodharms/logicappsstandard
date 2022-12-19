@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "WORKFLOWS_TENANT_ID": "8311371c-4852-4c89-8be5-29c6f73a0f80",
+    "WORKFLOWS_SUBSCRIPTION_ID": "c45cc061-645d-4858-b272-26836b9e1d00",
+    "WORKFLOWS_RESOURCE_GROUP_NAME": "LogicApps",
+    "WORKFLOWS_LOCATION_NAME": "australiaeast",
+    "WORKFLOWS_MANAGEMENT_BASE_URI": "https://management.azure.com/"
+  }
+}
