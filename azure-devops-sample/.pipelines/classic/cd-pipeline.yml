@@ -24,7 +24,7 @@ stages:
   - deployment: deploy_logicapp_resources
     displayName: Deploy Logic App
     pool:
-      vmImage: ubuntu-18.04
+      vmImage: ubuntu-20.04
     environment: $(devEnvironment)
     variables:
       deploymentMode: 'Incremental'
