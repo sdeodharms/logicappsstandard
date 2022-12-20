@@ -3,7 +3,7 @@
 variables:
 
   projectName: 'logicappsample'
-  suffix: 'dev'
+  suffix: 'dev212'
 
   # Resource Group
   resourceGroupLocation: 'westus'
